@@ -15,5 +15,5 @@ for ch in user_input:
             unicode = 91 - (65 - unicode)
         elif unicode > 90:
             unicode = 64 + (unicode - 90)
-    string += chr(unicode) + " "
+    string += chr(unicode)
 print(string.rstrip())
