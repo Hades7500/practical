@@ -1,5 +1,3 @@
-#TODO: Add actual variable names
-
 def func(num_list):
     final_list = []
     for i in range(len(num_list)):

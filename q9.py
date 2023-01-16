@@ -1,6 +1,6 @@
-def total(myDict): 
+def total(dictionary): 
     sum = 0
-    for num in myDict.values():
+    for num in dictionary.values():
         sum += num
 
     return sum
